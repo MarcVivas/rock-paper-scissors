@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "aquawax";
+    src: url(aquawax-pro/Aquawax-Pro-DemiBold-trial.ttf);
+}
+body {
+    background-color: #03071E;
+    color: #ffba08;
+    font-family: "aquawax", sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 4rem 4rem;
+    font-size: 4rem;
+    border: none;
+    border-radius: 3rem 0rem; 
+    box-sizing: border-box;
+    cursor: pointer;
+    flex: 1 1 auto;
+    transition: 0.5s;
+}
+
+.buttons {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+#results {     
+    height: 21rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
+#player {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex: 1;
+}
+
+button:hover {
+    background-color: rgb(255, 206, 116);
+    border-radius: 3rem 3rem; 
+    transition: 0.9s;
+}
+
+button:active {
+    background-color: orange;
+    transition: 0.1s;
+}
+
+#wins {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blanchedalmond;
+}
+
+
+
